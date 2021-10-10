@@ -1,0 +1,22 @@
+{
+  "sample_name": "sample2.dat",
+
+  "fitting_function": "1-exp(-(x/dbar)**n)",
+  "fitting_variables": [
+    {
+      "dbar": 200,
+      "n":    0.5
+    }
+  ],
+
+
+  "minimum_particle_dimater": 300,
+  "maximum_particle_diameter": 700,
+  "CFDEM_num_particle_groups":10,
+  "particle_density": 2800,
+
+  "mass_flow_rate_particles": 3.79,
+  "mass_flow_rate_fluid": 5.7,
+  "fluid_density": 1000,
+  "fluid_dyn_viscocity": 0.00089
+}

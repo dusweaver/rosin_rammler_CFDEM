@@ -1,0 +1,22 @@
+{
+  "sample_name": "sample2.dat",
+
+  "fitting_function": "(x/k)**m",
+  "fitting_variables": [
+    {
+      "k": 100,
+      "m":    0.5
+    }
+  ],
+
+
+  "minimum_particle_dimater": 100,
+  "maximum_particle_diameter": 700,
+  "CFDEM_num_particle_groups":20,
+  "particle_density": 2800,
+
+  "mass_flow_rate_particles": 3.79,
+  "mass_flow_rate_fluid": 5.7,
+  "fluid_density": 1000,
+  "fluid_dyn_viscocity": 0.00089
+}

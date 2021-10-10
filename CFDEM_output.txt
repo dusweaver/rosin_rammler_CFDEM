@@ -1,0 +1,11 @@
+fix   pts0 all particletemplate/sphere 1 atom_type 1 density constant 2800    radius constant 150.0e-6
+fix   pts1 all particletemplate/sphere 1 atom_type 1 density constant 2800    radius constant 172.22222222222223e-6
+fix   pts2 all particletemplate/sphere 1 atom_type 1 density constant 2800    radius constant 194.44444444444446e-6
+fix   pts3 all particletemplate/sphere 1 atom_type 1 density constant 2800    radius constant 216.66666666666666e-6
+fix   pts4 all particletemplate/sphere 1 atom_type 1 density constant 2800    radius constant 238.88888888888889e-6
+fix   pts5 all particletemplate/sphere 1 atom_type 1 density constant 2800    radius constant 261.1111111111111e-6
+fix   pts6 all particletemplate/sphere 1 atom_type 1 density constant 2800    radius constant 283.3333333333333e-6
+fix   pts7 all particletemplate/sphere 1 atom_type 1 density constant 2800    radius constant 305.55555555555554e-6
+fix   pts8 all particletemplate/sphere 1 atom_type 1 density constant 2800    radius constant 327.77777777777777e-6
+fix   pts9 all particletemplate/sphere 1 atom_type 1 density constant 2800    radius constant 350.0e-6
+fix pdd all particledistribution/discrete 63243 10 pts0 0  pts1 0.268968132296593  pts2 0.20856233840831423  pts3 0.1583807705318659  pts4 0.11804978460247006  pts5 0.08651083609375576  pts6 0.06241857768856962  pts7 0.044389700574514857  pts8 0.031144533105351146  pts9 0.021575326698565434 
